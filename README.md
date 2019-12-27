@@ -6,5 +6,5 @@ In order to compile the program, run the shell command *make* inside the *server
 
 The example of the commend line :
 
-Server - "./server 8088"
-Client - "./client Testcases/TestCase2 5 127.0.0.1 8088"
+* Server - "./server 8088"
+* Client - "./client Testcases/TestCase2 5 127.0.0.1 8088"
