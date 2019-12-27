@@ -17,7 +17,7 @@ int request[REQUEST_MSG_SIZE];
 int count_letter(char * arrLine, int mapper_id, int sockfd) {
   FILE * fp;
 
-  // Get rid of \n
+  // Get rid of new line
   if (arrLine[strlen(arrLine) - 1] == '\n') {
     arrLine[strlen(arrLine) - 1] = '\0';
   }
