@@ -23,7 +23,7 @@ struct threadArg {
 	int clientport;
 };
 
-// Function to handle client requests
+// Function to handle client requests 
 void * threadFunctionUpdate(void * arg) {
 	int curr_signal = -1;
 	int new_signal = -1;
